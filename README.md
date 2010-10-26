@@ -11,7 +11,7 @@ than forcing people to use SSL.
 
 Running idiocy
 --------------
-Idiocy requires libpcap, python-pcapy and python-dpkt. Also python.
+Idiocy requires libpcap, python-pcap (http://code.google.com/p/pypcap) and python-dpkt. Also python.
 
 On Linux:
 
