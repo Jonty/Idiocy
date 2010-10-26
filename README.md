@@ -14,14 +14,17 @@ Running idiocy
 Idiocy requires libpcap, python-pcapy and python-dpkt. Also python.
 
 On Linux:
+
 * apt-get install libpcap python-pcapy python-dpkt
 * iw wlan0 interface add mon0 type monitor && ifconfig mon0 up
 * ./idiocy.py -i mon0
 
 On OSX:
+
 * Should be very similar to the above, can someone with a Mac investigate for me?
 
 On Windows:
+
 * God knows. I do know that getting your wifi card into monitor mode on windows can be difficult.
 
 Notes
