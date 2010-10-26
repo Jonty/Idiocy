@@ -15,7 +15,7 @@ Idiocy requires libpcap, python-pcap (http://code.google.com/p/pypcap) and pytho
 
 On Linux:
 
-* apt-get install libpcap python-pcapy python-dpkt
+* apt-get install libpcap python-pcap python-dpkt
 * iw wlan0 interface add mon0 type monitor && ifconfig mon0 up
 * ./idiocy.py -i mon0
 
