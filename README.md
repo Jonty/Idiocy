@@ -11,11 +11,11 @@ than forcing people to use SSL.
 
 Running idiocy
 --------------
-Idiocy requires libpcap, python-pcap (http://code.google.com/p/pypcap) and python-dpkt. Also python.
+Idiocy requires libpcap, python-pypcap (http://code.google.com/p/pypcap) and python-dpkt. Also python.
 
 On Linux:
 
-* apt-get install libpcap python-pcap python-dpkt
+* apt-get install libpcap0.8 python-pypcap python-dpkt
 * iw wlan0 interface add mon0 type monitor && ifconfig mon0 up
 * ./idiocy.py -i mon0
 
