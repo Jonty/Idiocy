@@ -13,7 +13,7 @@ def main():
     device = None
     for o, a in opts:
         if o == '-i':
-            name = a
+            device = a
         else:
             usage()
 
