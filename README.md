@@ -13,7 +13,7 @@ Running idiocy
 --------------
 Idiocy requires libpcap, python-pypcap (http://code.google.com/p/pypcap) and python-dpkt. Also python.
 
-On Linux:
+On Linux (as root):
 
 * apt-get install libpcap0.8 python-pypcap python-dpkt
 * iw wlan0 interface add mon0 type monitor && ifconfig mon0 up
