@@ -3,7 +3,7 @@ Idiocy is a warning shot to people browsing the internet insecurely.
 
 For more information: <http://jonty.co.uk/idiocy>
 
-Idiocy quitely watches for people unsecurely visiting twitter on public wifi
+Idiocy quietly watches for people insecurely visiting twitter on public wifi
 networks, then hijacks their session to post a tweet warning them about the
 dangers. It was written in response to the release of Firesheep, which will
 result in a huge increase in session stealing attacks, with no defence other
